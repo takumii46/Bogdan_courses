@@ -1,3 +1,4 @@
+'use strict'
 //mutations
 //TODO copy by value
 const a = 10
@@ -9,7 +10,6 @@ console.log(a)
 console.log(b)
 
 //values of reference type
-
 const person = {
   name: 'Dima',
   age: 17,
