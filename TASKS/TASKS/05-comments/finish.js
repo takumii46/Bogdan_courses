@@ -7,3 +7,9 @@
  *
  * 3. Создайте многострочный комментарий
  */
+
+// this is a comment
+
+const newVar = 'variable' // this is a variable
+
+/** hey */
