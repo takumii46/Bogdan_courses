@@ -1,5 +1,5 @@
 'use strict'
-
+//objects
 const myBackpack = {
   liquid: 'water',
   food: 'can of beans',
