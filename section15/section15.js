@@ -98,3 +98,12 @@ const newMapUndefined = mappedArray.map(el => {
 console.log(newMap) //map created new array
 console.log(mappedArray) //original array did not change
 console.log(newMapUndefined) //return is missing
+
+//TODO reduce
+const myWallet = [1, 5, 10, 50, 100]
+const initialValue = 0
+
+myWallet.reduce((acc, currentValue) => {
+  return acc + currentValue, initialValue
+})
+

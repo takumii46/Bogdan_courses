@@ -15,7 +15,7 @@ class Comment {
   }
 
   //TODO static methods
-  static mergeComments(first, second) { // this static method is in constructor. It will not be available on the level with exemplers
+  static mergeComments(first, second) { //this static method is in the constructor. It will not be available on the level with exemplers
     return `${first} ${second}`
   }
 }

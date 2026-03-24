@@ -43,7 +43,7 @@ for (const key in forInObj) {
 //for ... in for arrays (NOT RECOMMENDED)
 const myArray = [true, 10, 'string', undefined]
 for (const key in myArray) {
-    console.log(myArray[key]) //key is index of myArray
+    console.log(myArray[key]) //key is the index of myArray
 }
 
 //TODO forEach for objects
